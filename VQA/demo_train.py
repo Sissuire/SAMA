@@ -1,6 +1,7 @@
 # -------------------------------------------------
-# Submission 6299, AAAI 2024
-# Training code for VQA. This code is modified from FAST-VQA [ECCV, 2022]
+# SAMA, AAAI 2024
+# Training code for VQA. 
+# This code is modified from FAST-VQA [ECCV, 2022]
 # -------------------------------------------------
 import torch
 import random
