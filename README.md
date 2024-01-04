@@ -1,19 +1,18 @@
 # SAMA Overview
 
-PyTorch implementation of **Scaling and Masking: A New Paradigm of Data Sampling for Image and Video Quality Assessment**, which has been accepted by **AAAI-2024**.
+PyTorch implementation of **Scaling and Masking: A New Paradigm of Data Sampling for Image and Video Quality Assessment** (arXiv)[], which has been accepted by **AAAI-2024**.
+
+This code is modified from (FAST-VQA)[https://github.com/VQAssessment/FAST-VQA-and-FasterVQA].
 
 ![](method.png)
 
 ## Usage
 
-The method is simple enough. 
+For image quality assessment (IQA), please refer to (IQA/demo_train_iqa_baseline.py)[https://github.com/Sissuire/SAMA/blob/main/IQA/demo_train_iqa_baseline.py].
 
-- Download the pretrained submodels first (see in the folder `pretrained_model`);
-- Run `demo_extract_first.py` to extract features from dual streams. 
-- Run `demo_run_main.py` or `demo_run_interdataset.py` to get the intra/inter-dataset performance in KoNViD-1K, LIVE-VQC, and YouTube-UGC. 
+For video quality assessment (VQA), please refer to (VQA/demo_train.py)[https://github.com/Sissuire/SAMA/blob/main/VQA/demo_train.py].
 
-We have provided the extracted features in KoNViD-1K, LIVE-VQC, and YouTube-UGC in the folder `./data/`. Any other dataset would be ok with the same procedure.
-
+The main idea/contribution lies in the data sampling, which can be found in (IQA)[https://github.com/Sissuire/SAMA/blob/b8fdfa390999908bf6c0da284973bb1f2eb646d8/IQA/demo_train_iqa_baseline.py#L166C13-L166C13] and (VQA)[https://github.com/Sissuire/SAMA/blob/b8fdfa390999908bf6c0da284973bb1f2eb646d8/VQA/fastvqa/datasets/fusion_datasets.py#L211].
 
 ### Environment
 Different environment may induce possible fluctuation of performance.
