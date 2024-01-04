@@ -2,7 +2,7 @@
 
 PyTorch implementation of **Scaling and Masking: A New Paradigm of Data Sampling for Image and Video Quality Assessment**, which has been accepted by **AAAI-2024**.
 
-![](sama.png)
+![](method.pdf)
 
 ## Usage
 
