@@ -2,7 +2,7 @@
 
 PyTorch implementation of **Scaling and Masking: A New Paradigm of Data Sampling for Image and Video Quality Assessment** (arXiv)[], which has been accepted by **AAAI-2024**.
 
-This code is modified from (FAST-VQA)[https://github.com/VQAssessment/FAST-VQA-and-FasterVQA].
+This code is modified from [FAST-VQA]([https://github.com/VQAssessment/FAST-VQA-and-FasterVQA).
 
 ![](method.png)
 
