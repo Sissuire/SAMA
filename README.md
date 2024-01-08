@@ -1,6 +1,6 @@
 # SAMA Overview
 
-PyTorch implementation of "**Scaling and Masking: A New Paradigm of Data Sampling for Image and Video Quality Assessment**" [arXiv](https://arxiv.org/abs/2401.02614), which has been accepted by **AAAI-2024**.
+PyTorch implementation of "**Scaling and Masking: A New Paradigm of Data Sampling for Image and Video Quality Assessment**" ([arXiv](https://arxiv.org/abs/2401.02614)), which has been accepted by **AAAI-2024**.
 
 This code is modified from [FAST-VQA](https://github.com/VQAssessment/FAST-VQA-and-FasterVQA).
 
@@ -30,9 +30,8 @@ The installation can refer to [FAST-VQA](https://github.com/VQAssessment/FAST-VQ
 If you are interested in the work, or find the code helpful, please cite our work
 ```
 @ARTICLE{sama,  
-  author={Liu, Yongxu and Quan, yinghui and Xiao, guoyao and Li, Aobo and Wu, jinjian},  
   title={Scaling and Masking: A New Paradigm of Data Sampling for Image and Video Quality Assessment}, 
-  author={Yongxu Liu and Yinghui Quan and Guoyao Xiao and Aobo Li and Jinjian Wu},
+  author={Liu, Yongxu and Quan, yinghui and Xiao, guoyao and Li, Aobo and Wu, jinjian},  
   year={2024},
   eprint={2401.02614},
   archivePrefix={arXiv},
