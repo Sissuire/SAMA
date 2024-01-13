@@ -25,7 +25,7 @@ And please prepare the pretrained models of [video-swin](https://github.com/Swin
 
 #### Testing with pretrained model on videos
 
-We have provided the pretrained weights (trained on LSVQ train set): [GoogleDrive](https://drive.google.com/drive/folders/1adB3aB8gBMx7c38tEfgls-i6QNZJI8nF?usp=sharing) / [BaiDu](https://pan.baidu.com/s/1KTicZ2WX8BN7GTgr9PX6ZQ?pwd=xyns) (Code:xyns). please check the pretrained weights in `./pretrained_weights` folder and put the weights in the folder. 
+We have provided the pretrained weights (trained on LSVQ train set): [GoogleDrive](https://drive.google.com/drive/folders/1adB3aB8gBMx7c38tEfgls-i6QNZJI8nF?usp=sharing) / [BaiDu](https://pan.baidu.com/s/1KTicZ2WX8BN7GTgr9PX6ZQ?pwd=xyns) (Code:xyns). please check the pretrained weights in `./VQA/pretrained_weights` folder and put the weights in the folder. 
 
 To test on your own dataset or video files, please construct the dataset information as the examplar in `./VQA/examplar_data_labels`, and set the configuration in [fast-SAMA-test.yml](https://github.com/Sissuire/SAMA/blob/main/VQA/options/fast-SAMA-test.yml). Run the file [demo_test.py](https://github.com/Sissuire/SAMA/blob/main/VQA/demo_test.py) to check the details.
 
