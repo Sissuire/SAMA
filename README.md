@@ -59,3 +59,9 @@ If you are interested in the work, or find the code helpful, please cite our wor
 ### Contact
 
 Feel free to contact me via `yongxu.liu@xidian.edu.cn` if any question or bug.
+
+### License
+
+Copyright (c) [2024] [Yongxu Liu]
+
+Permission to use, copy, or modify this software and its documentation for educational and research purposes only and without fee is here granted. This program shall not be used, rewritten, or adapted as the basis of a commercial software or hardware product without first obtaining permission of the authors. The authors make no representations about the suitability of this software for any purpose. It is provided "as is" without express or implied warranty.
